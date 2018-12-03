@@ -14,8 +14,8 @@
 
 all: push
 
-TAG ?= 0.1
-PREFIX ?= quay.io/samsung_cnct/kafka-monitor
+TAG ?= latest
+PREFIX ?= grinfeld/kafka-monitor
 
 container:
 	cd ../ && \

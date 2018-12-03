@@ -59,7 +59,7 @@ allprojects {
     configProperties = [ "suppressionFile" : new File(rootDir, "checkstyle/suppressions.xml") ]
   }
 
-  test.dependsOn('checkstyleMain', 'checkstyleTest')
+  //test.dependsOn('checkstyleMain', 'checkstyleTest')
 
   test {
     useTestNG()
